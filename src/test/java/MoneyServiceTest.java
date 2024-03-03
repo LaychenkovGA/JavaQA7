@@ -5,7 +5,7 @@ import ru.netology.javaqa.javaqamvn.services.MoneyService;
 public class MoneyServiceTest {
 
     @Test
-    public void threeMonthsVacation() {
+    public void threeMoneyService() {
         MoneyService service = new MoneyService();
 
         int expected = 3;
@@ -15,7 +15,7 @@ public class MoneyServiceTest {
     }
 
     @Test
-    public void twoMonthsVacation() {
+    public void twoMoneyService() {
         MoneyService service = new MoneyService();
 
         int expected = 2;
